@@ -22,8 +22,8 @@ body{
 }
 .btn.btn-style1,
 .btn.btn-style2 {
-    background: #f8f400;
-    color: #535353 !important;
+    background: #f8bf53;
+    color: #403f4c !important;
     font-size: 12px;
     display: inline-block;
     padding: 14px 13px;
@@ -31,11 +31,13 @@ body{
     text-transform: uppercase;
     box-shadow: 0px 0px 12px rgba(0,0,0,0.25);
     border-radius: 2px;
+    margin-top: 30px;
 }
 
 .btn.btn-style2 {
 	background: #fff;
-	color: #535353
+	color: #403f4c;
+    margin-top: 30px;
 }
 .btn-lg{
     padding: 21px 31px !important;
@@ -178,7 +180,7 @@ header .container{
     font-size: 14px;
     font-weight: 700;
     display: block;
-    color: #535353;
+    color: #403f4c;
 }
 .header-request-quote{}
 .btn{}
@@ -188,10 +190,10 @@ header .container{
 }
 .menu-area {
     position: absolute;
-    top: 87px;
+    top: 120px;
     left: calc(50% - 41%);
     width: 83%;
-    background: #292929;
+    background: #fff;
 }
 .main-menu{
 	float: left;
@@ -229,7 +231,7 @@ header .container{
     bottom: 5px;
     width: calc(100% - 40px);
     height: 2px;
-    background: #df0024;
+    background: #fff;
     content: '';
     opacity: 0;
 	-webkit-transition: all 0.3s ease;
@@ -336,11 +338,11 @@ header .container{
 .menu-row-search-box form input[type="search"] {
     width: 95%;
     border: none;
-    background: #3a3333;
+    background: #fff;
     padding: 15px 18px 14px 24px;
     font-size: 12px;
     font-weight: 600;
-    color: #8e8787;
+    color: #403f4c;
     letter-spacing: 3px;
     margin: 8px 6% 8px 0;
 	-webkit-transition: all 0.3s ease;
@@ -1721,7 +1723,7 @@ textarea.form-control{
     width: 100%;
 }
 .custom-menu li.current-menu-item a{
-    background: #f9e600
+    background: #fff;
 
 }
 
