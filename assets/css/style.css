@@ -80,7 +80,7 @@ h1,h2,h3{
 }
 p{
 	font-size: 17px;
-	color: #464646;
+	color: #403f4c;
 	line-height: 28px;
 }
 
@@ -192,12 +192,12 @@ header .container{
     position: absolute;
     top: 120px;
     left: calc(50% - 41%);
-    width: 83%;
+    width: 90%;
     background: #fff;
 }
 .main-menu{
 	float: left;
-	width: 70%;
+	width: 75%;
 }
 .main-menu ul{
 	margin: 0px;
@@ -244,7 +244,7 @@ header .container{
 	bottom: 19px
 }
 .main-menu ul li a {
-    color: #cecece;
+    color: #403f4c;
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
@@ -318,7 +318,7 @@ header .container{
 }
 
 .main-menu ul li .sub-menu li a:hover{
-	background: #2d2d2d
+	background: #fff;
 }
 
 .menu-row-search-box {
