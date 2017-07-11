@@ -1,0 +1,716 @@
+@media (max-width: 479px){
+/*=============================================
+=            HOMEPAGE            		  =
+=============================================*/
+body{
+	/*background: green*/
+}
+.business-info ul li {
+	display: initial;
+}
+.business-info ul li .content,
+.business-info ul li .title {
+     display: inline; 
+}
+.in-h-b-col{
+	display: none;
+}
+.upper-header-business-info{
+	display: block;
+}
+.upper-header-business-info{
+	padding: 15px 0px;
+}
+.slicknav_menu {
+	display:block;
+}
+.menu-area {
+    width: 85%;
+}
+#menu{
+	display: none;
+}
+.slicknav_menu{
+    background: transparent;
+    position: absolute;
+    right: 0px;
+    top: 6px;
+    z-index: 999
+}
+.slicknav_nav .slicknav_row, .slicknav_nav a{
+	padding: 15px 0px !important;
+	display: block;
+}
+.main-menu ul li > .sub-menu {
+    position: initial; 
+    transform: rotateY(0deg);
+    visibility: visible;
+    opacity: 1;
+}
+.main-menu ul li .sub-menu li .sub-menu {
+    position: initial;
+    left: 0;
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+}
+.slicknav_nav a:hover, .slicknav_nav .slicknav_row:hover {
+    background: transparent;
+    color: #cecece;
+}
+.main-menu ul li > .sub-menu{
+	background: transparent;
+	    width: 225px;
+}
+.main-menu{
+	position: relative;
+	float: right;
+    width: 40%;
+}
+.main-menu ul {
+    background: #292929;
+    width: 250px;
+}
+.menu-row-search-box {
+    width: 48%;
+    float: left;
+    margin-left: 8px;
+}
+.main-menu ul li{
+	float: initial;
+}
+.menu-row-search-box.focused {
+    width: 55%;
+}
+
+header {
+    padding: 47px 0px 80px;
+}
+.slider-text-block h1 {
+    font-size: 40px;
+    line-height: 48px;
+}
+.slider .ws-190{
+    height: 120px;
+}
+.slider-text-block p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-right: 50px;
+}
+.slider-text-block .slider-btns {
+    margin-top: 50px;
+}
+h3, .h3 {
+    font-size: 21px;
+    line-height: 27px;
+}
+.single-service p {
+    font-size: 15px;
+    line-height: 21px;
+}
+.section-promo-1 h1 {
+    font-size: 33px;
+    line-height: 42px;
+}
+.section-promo-1 p {
+    font-size: 17px;
+    line-height: 26px;
+}
+.section-promo-1 .container {
+    padding: 100px 0px;
+}
+.about-us-img{
+    margin-top: 50px;
+}
+.team-members{
+	margin-top: 50px;
+}
+.single-service i {
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+    padding-top: 15px;
+}
+.section-title h1 {
+    font-size: 31px;
+}.btn-lg {
+    padding: 16px 25px !important;
+    font-size: 15px !important;
+}
+
+footer .widget{
+	margin-bottom: 50px;
+}
+.widget.widget_recent_entries ul li .post-thumb {
+    width: 100px;
+}
+.widget.widget_recent_entries ul li .post-content {
+    margin-left: 15px;
+}
+.call-to-action .btn{
+	float: left;
+}
+.slider-text-block {
+    margin-left: 12px;
+}
+.single-ff {
+    margin-bottom: 30px;
+}
+.single-team img {
+    width: 180px;
+}
+
+.business-info ul li {
+    margin-right: 10px;
+}
+.business-info ul li .title {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.business-info ul li .content {
+    font-size: 13px;
+}
+.sf-project .overlay {
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+.owl-theme .owl-dots {
+    margin-top: 15px;
+}
+.ff-text-left h2 {
+    line-height: 40px;
+}
+.ff-number .counter {
+    font-size: 34px;
+}
+
+.breadcrumb-area h2 {
+    font-size: 35px;
+    margin-bottom: 1px;
+}
+.breadcrumb-area p {
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+.breadcrumb-area ol {
+    margin-bottom: 10px;
+}
+.breadcrumb-area {
+    padding: 85px 0px 70px;
+}
+.breadcrumb-area a.btn {
+    padding: 11px 16px;
+}
+.about-us-promo {
+    margin-top: 80px;
+}
+.about-us-right{
+    margin-top: 50px;
+}
+.about-us-right img{
+    width: 100%;
+}
+.contact-us-promo{
+    margin-top: 80px;
+}
+.contact-us-right{
+    margin-top: 80px;
+    margin-left: 0px;
+}
+.google-map {
+    height: 400px;
+}
+.faq-right {
+    margin: 80px 0px 0px 0px;
+}
+.single-p-left {
+    margin-right: 0px;
+}
+.single-p-right {
+    margin:50px 0px 0px;
+}
+.project-gallery img {
+    margin-bottom: 20px;
+}
+.featured-project-filter {
+    margin-left: 0px;
+    margin-top: 80px;
+}
+.request-a-quote p {
+    padding: 0px;
+    font-size: 15px;
+    line-height: 21px;
+}
+.solution-details{
+    margin-top: 80px;
+}
+
+.team-page{
+    margin: 60px;
+}
+
+
+
+
+ol.children article.depth-2{
+    padding-left: 40px;
+}
+ol.children article.depth-3{
+    padding-left: 40px;
+}
+ol.children article.depth-4{
+    padding-left: 40px;
+}
+ol.children article.depth-5{
+    padding-left: 40px;
+}
+
+}
+
+@media (min-width: 480px) and (max-width: 767px){
+/*=============================================
+=            HOMEPAGE            		  =
+=============================================*/
+body{
+	/*background: orange*/
+}
+.in-h-b-col{
+	display: none;
+}
+.upper-header-business-info{
+	display: block;
+}
+.upper-header-business-info{
+	padding: 15px 0px;
+}
+.slicknav_menu {
+	display:block;
+}
+#menu{
+	display: none;
+}
+.slicknav_menu{
+    background: transparent;
+    position: absolute;
+    right: 0px;
+    top: 6px;
+    z-index: 999
+}
+.slicknav_nav .slicknav_row, .slicknav_nav a{
+	padding: 15px 0px !important;
+	display: block;
+}
+.main-menu ul li > .sub-menu {
+    position: initial; 
+    transform: rotateY(0deg);
+    visibility: visible;
+    opacity: 1;
+}
+.main-menu ul li .sub-menu li .sub-menu {
+    position: initial;
+    left: 0;
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+}
+.slicknav_nav a:hover, .slicknav_nav .slicknav_row:hover {
+    background: transparent;
+    color: #cecece;
+}
+.main-menu ul li > .sub-menu{
+	background: transparent;
+	    width: 225px;
+}
+.main-menu{
+	position: relative;
+	float: right;
+    width: 50%;
+}
+.main-menu ul {
+    background: #292929;
+    width: 250px;
+}
+.menu-row-search-box {
+    width: 41%;
+    float: left;
+    margin-left: 8px;
+}
+.main-menu ul li{
+	float: initial;
+}
+.menu-row-search-box.focused {
+    width: 45%;
+}
+header {
+    padding: 47px 0px 80px;
+}
+.slider-text-block h1 {
+    font-size: 40px;
+    line-height: 48px;
+}
+.slider .ws-190{
+    height: 120px;
+}
+.slider-text-block p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-right: 50px;
+}
+.slider-text-block .slider-btns {
+    margin-top: 50px;
+}
+h3, .h3 {
+    font-size: 21px;
+    line-height: 27px;
+}
+.single-service p {
+    font-size: 15px;
+    line-height: 21px;
+}
+.section-promo-1 h1 {
+    font-size: 47px;
+    line-height: 57px;
+}
+.section-promo-1 p {
+    font-size: 20px;
+    line-height: 28px;
+}
+.section-promo-1 .container {
+    padding: 100px 0px;
+}
+.about-us-img{
+    margin-top: 50px;
+}
+.team-members{
+	margin-top: 50px;
+}
+.single-service i {
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+    padding-top: 15px;
+}
+.section-title h1 {
+    font-size: 33px;
+}
+
+footer .widget{
+	margin-bottom: 50px;
+}
+.widget.widget_recent_entries ul li .post-thumb {
+    width: 100px;
+}
+.widget.widget_recent_entries ul li .post-content {
+    margin-left: 15px;
+}
+.call-to-action .btn{
+	float: left;
+}
+.slider-text-block {
+    margin-left: 30px;
+}
+.single-ff {
+    margin-bottom: 30px;
+}
+.single-team img {
+    width: 180px;
+}
+.breadcrumb-area h2 {
+    font-size: 35px;
+    margin-bottom: 1px;
+}
+.breadcrumb-area p {
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+.breadcrumb-area ol {
+    margin-bottom: 10px;
+}
+.breadcrumb-area {
+    padding: 85px 0px 70px;
+}
+.breadcrumb-area a.btn {
+    padding: 11px 16px;
+}
+.about-us-promo {
+    margin-top: 80px;
+}
+.about-us-right{
+    margin-top: 50px;
+}
+.about-us-right img{
+    width: 100%;
+}
+
+.contact-us-promo{
+    margin-top: 80px;
+}
+.contact-us-right{
+    margin-top: 80px;
+    margin-left: 0px;
+}
+.google-map {
+    height: 400px;
+}
+.faq-right {
+    margin: 80px 0px 0px 0px;
+}
+.single-p-right{
+    margin-top: 80px;
+}
+.single-p-left {
+    margin-right: 0px;
+}
+.featured-project-filter {
+    margin-left: 0px;
+    margin-top: 80px;
+}
+
+.request-a-quote p {
+    padding: 0px 40px;
+    font-size: 15px;
+    line-height: 21px;
+}
+.solution-details{
+    margin-top: 80px;
+}
+
+.team-page{
+    margin: 80px;
+}
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 979px){
+/*=============================================
+=            HOMEPAGE            		  =
+=============================================*/
+body{
+	/*background: red*/
+}
+.in-h-b-col{
+	display: none;
+}
+.upper-header-business-info{
+	display: block;
+}
+.upper-header-business-info{
+	padding: 15px 0px;
+}
+.slicknav_menu {
+	display:block;
+}
+#menu{
+	display: none;
+}
+.slicknav_menu{
+    background: transparent;
+    position: absolute;
+    right: 0px;
+    top: 6px;
+    z-index: 999
+}
+.slicknav_nav .slicknav_row, .slicknav_nav a{
+	padding: 15px 0px !important;
+	display: block;
+}
+.main-menu ul li > .sub-menu {
+    position: initial; 
+    transform: rotateY(0deg);
+    visibility: visible;
+    opacity: 1;
+}
+.main-menu ul li .sub-menu li .sub-menu {
+    position: initial;
+    left: 0;
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+}
+.slicknav_nav a:hover, .slicknav_nav .slicknav_row:hover {
+    background: transparent;
+    color: #cecece;
+}
+.main-menu ul li > .sub-menu{
+	background: transparent;
+	    width: 225px;
+}
+.main-menu{
+	position: relative;
+	float: right;
+    width: 50%;
+}
+.main-menu ul {
+    background: #292929;
+    width: 250px;
+}
+.menu-row-search-box {
+    width: 41%;
+    float: left;
+    margin-left: 8px;
+}
+.main-menu ul li{
+	float: initial;
+}
+.menu-row-search-box.focused {
+    width: 45%;
+}
+header {
+    padding: 47px 0px 80px;
+}
+.slider-text-block h1 {
+    font-size: 45px;
+    line-height: 58px;
+}
+.slider .ws-190{
+    height: 150px;
+}
+.slider-text-block p {
+    font-size: 20px;
+    line-height: 32px;
+}
+.slider-text-block .slider-btns {
+    margin-top: 50px;
+}
+h3, .h3 {
+    font-size: 21px;
+    line-height: 27px;
+}
+.single-service p {
+    font-size: 15px;
+    line-height: 21px;
+}
+.section-promo-1 h1 {
+    font-size: 47px;
+    line-height: 57px;
+}
+.section-promo-1 p {
+    font-size: 20px;
+    line-height: 28px;
+}
+.section-promo-1 .container {
+    padding: 100px 0px;
+}
+.about-us-img{
+    margin-top: 50px;
+}
+.team-members{
+	margin-top: 50px;
+}
+.single-service i {
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+    padding-top: 15px;
+}
+.section-title h1 {
+    font-size: 34px;
+}
+
+footer .widget{
+	margin-bottom: 50px;
+}
+.widget.widget_recent_entries ul li .post-thumb {
+    width: 100px;
+}
+.widget.widget_recent_entries ul li .post-content {
+    margin-left: 15px;
+}
+.call-to-action .btn{
+	float: left;
+}
+
+.slider-text-block {
+    margin-left: 45px;
+}
+.contact-us-promo{
+    margin-top: 80px;
+}
+.contact-us-right{
+    margin-top: 80px;
+    margin-left: 0px;
+}
+.google-map {
+    height: 400px;
+}
+
+.faq-right {
+    margin: 80px 0px 0px 0px;
+}
+.single-p-right{
+    margin-top: 80px;
+}
+.featured-project-filter {
+    margin-left: 0px;
+    margin-top: 80px;
+}
+.solution-details{
+    margin-top: 80px;
+}
+
+}
+
+@media (min-width: 969px) and (max-width: 1169px){
+/*=============================================
+=            HOMEPAGE            		  =
+=============================================*/
+body{
+	/*background: aqua*/
+}
+.main-menu ul li {
+    padding: 0px 15px;
+}
+.slider .ws-190{
+	height: 140px;
+}
+.single-service{
+	margin-bottom: 0px;
+}
+.single-service h3{
+	font-size: 21px;
+}
+.single-service p {
+    font-size: 15px;
+    line-height: 20px;
+}
+.sf-project .overlay h4 {
+    line-height: 24px;
+    font-size: 18px;
+}
+.sf-project .overlay{
+	padding: 20px;
+}
+.section-promo-1 .container {
+    padding: 120px 0px;
+}
+.single-team {
+    padding: 25px 15px 40px 15px;
+}
+.slider-text-block {
+    margin-left: 70px;
+}
+
+.faq-right {
+    margin: 80px 0px 0px 0px;
+}
+
+}
+
+
+@media (min-width: 1170px) and (max-width: 1469px){
+/*=============================================
+=            HOMEPAGE            		  =
+=============================================*/
+
+}
+
+@media (min-width: 1470px) {
+
+}
+
+
