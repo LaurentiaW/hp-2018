@@ -5,7 +5,7 @@
 =============================================*/
 
 body{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 ::-moz-selection {
      background: #338FFF; 
@@ -22,8 +22,8 @@ body{
 }
 .btn.btn-style1,
 .btn.btn-style2 {
-    background: #f8f400;
-    color: #535353 !important;
+    background: #f8bf53;
+    color: #403f4c !important;
     font-size: 12px;
     display: inline-block;
     padding: 14px 13px;
@@ -31,11 +31,13 @@ body{
     text-transform: uppercase;
     box-shadow: 0px 0px 12px rgba(0,0,0,0.25);
     border-radius: 2px;
+    margin-top: 30px;
 }
 
 .btn.btn-style2 {
 	background: #fff;
-	color: #535353
+	color: #403f4c;
+    margin-top: 30px;
 }
 .btn-lg{
     padding: 21px 31px !important;
@@ -50,10 +52,12 @@ h3,
 h4,
 h5,
 h6{
-	font-weight: 600;
+	font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 h1,.h1{
 	font-size: 34px;
+    text-transform: uppercase;
 }
 h2,.h2{
 	font-size: 30px;
@@ -78,7 +82,7 @@ h1,h2,h3{
 }
 p{
 	font-size: 17px;
-	color: #464646;
+	color: #403f4c;
 	line-height: 28px;
 }
 
@@ -178,7 +182,7 @@ header .container{
     font-size: 14px;
     font-weight: 700;
     display: block;
-    color: #535353;
+    color: #403f4c;
 }
 .header-request-quote{}
 .btn{}
@@ -188,14 +192,14 @@ header .container{
 }
 .menu-area {
     position: absolute;
-    top: 87px;
+    top: 120px;
     left: calc(50% - 41%);
-    width: 83%;
-    background: #292929;
+    width: 90%;
+    background: #fff;
 }
 .main-menu{
 	float: left;
-	width: 70%;
+	width: 75%;
 }
 .main-menu ul{
 	margin: 0px;
@@ -229,7 +233,7 @@ header .container{
     bottom: 5px;
     width: calc(100% - 40px);
     height: 2px;
-    background: #df0024;
+    background: #fff;
     content: '';
     opacity: 0;
 	-webkit-transition: all 0.3s ease;
@@ -242,7 +246,7 @@ header .container{
 	bottom: 19px
 }
 .main-menu ul li a {
-    color: #cecece;
+    color: #403f4c;
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
@@ -255,7 +259,7 @@ header .container{
 
 .main-menu ul li > .sub-menu{
     position: absolute;
-    background: #313131;
+    background: #fff;
     left: 0px;
     top: 80px;
     width: 270px;
@@ -316,7 +320,7 @@ header .container{
 }
 
 .main-menu ul li .sub-menu li a:hover{
-	background: #2d2d2d
+	background: #fff;
 }
 
 .menu-row-search-box {
@@ -336,11 +340,11 @@ header .container{
 .menu-row-search-box form input[type="search"] {
     width: 95%;
     border: none;
-    background: #3a3333;
+    background: #fff;
     padding: 15px 18px 14px 24px;
     font-size: 12px;
     font-weight: 600;
-    color: #8e8787;
+    color: #403f4c;
     letter-spacing: 3px;
     margin: 8px 6% 8px 0;
 	-webkit-transition: all 0.3s ease;
@@ -386,7 +390,7 @@ header .container{
 =============================================*/
 
 .slider{
-	background: url('../img/header.jpg') no-repeat center top;
+	background: url('../img/sb-getting-to-the-bottom-faster.jpg') no-repeat center top;
 	background-size: cover;
 }
 
@@ -418,6 +422,21 @@ header .container{
 /*=====  End of SLIDER block  ======*/
 
 
+/*===================================
+=            PUMP SYSTEMS            =
+ ====================================*/
+
+ .notice {
+    background:#bf2128;
+ }
+
+ .notice p {
+    color: #fff;
+    text-align: center;
+ }
+
+
+
 /*=============================================
 =            SERVICES  block            =
 =============================================*/
@@ -427,7 +446,10 @@ header .container{
 .single-service{
 	position: relative;
 	overflow: hidden;
-	margin-bottom: 30px;
+	padding: 0 0 30px 15px;
+    margin: auto;
+    background-color: white;
+
 }
 .single-service .serv-img-wrap{
 	overflow: hidden;
@@ -447,7 +469,7 @@ header .container{
 	-moz-transition: all 1s ease;
 	transition: all 1s ease;
 	z-index: 3;
-	width: 100%;
+	max-width: 250px;
 }
 .single-service i {
     position: absolute;
@@ -472,6 +494,7 @@ header .container{
     color: #303030;
     font-weight: 300;
     line-height: 22px;
+    padding-right: 10px;
 }
 .fa-bars{}
 .service-icon{}
@@ -479,9 +502,47 @@ header .container{
 .fa-cog{}
 .fa-tasks{}
 
+.pump-systems  {
+    float: left;
+    width: 40%;
+}
+.pump-systems-img {
+    float: left;
+    width: 45%;
+
+}
 
 
+.border-right {
+    border-right: 1px solid #403f4c;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #403f4c;
+}
+
+.border-left {
+    border-left: 1px solid #403f4c;
+}
+
+.border-top{
+    border-top: 1px solid #403f4c;
+}
+}
 /*=====  End of SERVICES block  ======*/
+
+
+/*=============================================
+=            HIPPO SLURRY PUMP RANGE            =
+=============================================*/
+.logo-align img {
+    margin: auto;
+}
+
+.item p {
+    text-align: center;
+}
+
 
 
 
@@ -575,7 +636,8 @@ header .container{
 
 .no-spaces{
     margin: 0px;
-    padding: 0px;
+    padding: 30px 0 0 15px;
+    background-color: #bf2128;
 }
 /*=============================================
 =            FEATURED SLIDER  block            =
@@ -1320,7 +1382,7 @@ footer{
     font-size: 16px;
 }
 .widget address strong {
-    color: #b9ae2e;
+    color: #f8bf53;
     font-weight: 400;
 }
 
@@ -1435,7 +1497,7 @@ footer{
 	bottom: 0px;
 	height: 1px;
 	width: 100px;
-	background: #f8f400;
+	background: #f8bf53;
 	content: ''
 }
 .footer-about-widget ul {}
@@ -1456,7 +1518,7 @@ footer{
     transition: all 0.3s ease;
 }
 .footer-about-widget ul li a:hover{
-	color: #f8f400
+	color: #f8bf53;
 }
 
 .footer-about-widget ul li a i{}
@@ -1721,7 +1783,7 @@ textarea.form-control{
     width: 100%;
 }
 .custom-menu li.current-menu-item a{
-    background: #f9e600
+    background: #fff;
 
 }
 

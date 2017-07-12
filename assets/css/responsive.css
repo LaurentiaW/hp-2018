@@ -56,7 +56,7 @@ body{
 }
 .slicknav_nav a:hover, .slicknav_nav .slicknav_row:hover {
     background: transparent;
-    color: #cecece;
+    color: #bf2128;
 }
 .main-menu ul li > .sub-menu{
 	background: transparent;
@@ -68,7 +68,7 @@ body{
     width: 40%;
 }
 .main-menu ul {
-    background: #292929;
+    background: #fff;
     width: 250px;
 }
 .menu-row-search-box {
@@ -318,7 +318,7 @@ body{
 }
 .slicknav_nav a:hover, .slicknav_nav .slicknav_row:hover {
     background: transparent;
-    color: #cecece;
+    color: #bf2128;
 }
 .main-menu ul li > .sub-menu{
 	background: transparent;
@@ -330,7 +330,7 @@ body{
     width: 50%;
 }
 .main-menu ul {
-    background: #292929;
+    background: #fff;
     width: 250px;
 }
 .menu-row-search-box {
@@ -534,7 +534,7 @@ body{
 }
 .slicknav_nav a:hover, .slicknav_nav .slicknav_row:hover {
     background: transparent;
-    color: #cecece;
+    color: #bf2128;
 }
 .main-menu ul li > .sub-menu{
 	background: transparent;
@@ -546,7 +546,7 @@ body{
     width: 50%;
 }
 .main-menu ul {
-    background: #292929;
+    background: #fff;
     width: 250px;
 }
 .menu-row-search-box {
