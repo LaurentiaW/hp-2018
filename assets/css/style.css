@@ -388,7 +388,7 @@ header .container{
 =============================================*/
 
 .slider{
-	background: url('../img/header.jpg') no-repeat center top;
+	background: url('../img/sb-getting-to-the-bottom-faster.jpg') no-repeat center top;
 	background-size: cover;
 }
 
@@ -420,6 +420,21 @@ header .container{
 /*=====  End of SLIDER block  ======*/
 
 
+/*===================================
+=            PUMP SYSTEMS            =
+ ====================================*/
+
+ .notice {
+    background:#bf2128;
+ }
+
+ .notice p {
+    color: #fff;
+    text-align: center;
+ }
+
+
+
 /*=============================================
 =            SERVICES  block            =
 =============================================*/
@@ -429,7 +444,8 @@ header .container{
 .single-service{
 	position: relative;
 	overflow: hidden;
-	margin-bottom: 30px;
+	margin: 0 0 30px 15px;
+
 }
 .single-service .serv-img-wrap{
 	overflow: hidden;
@@ -449,7 +465,7 @@ header .container{
 	-moz-transition: all 1s ease;
 	transition: all 1s ease;
 	z-index: 3;
-	width: 100%;
+	max-width: 250px;
 }
 .single-service i {
     position: absolute;
@@ -474,6 +490,7 @@ header .container{
     color: #303030;
     font-weight: 300;
     line-height: 22px;
+    margin-right: 10px;
 }
 .fa-bars{}
 .service-icon{}
@@ -481,8 +498,33 @@ header .container{
 .fa-cog{}
 .fa-tasks{}
 
+.pump-systems  {
+    float: left;
+    width: 40%;
+}
+.pump-systems-img {
+    float: left;
+    width: 45%;
+
+}
 
 
+.border-right {
+    border-right: 1px solid #403f4c;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #403f4c;
+}
+
+.border-left {
+    border-left: 1px solid #403f4c;
+}
+
+.border-top{
+    border-top: 1px solid #403f4c;
+}
+}
 /*=====  End of SERVICES block  ======*/
 
 
