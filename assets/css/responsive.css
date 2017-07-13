@@ -486,7 +486,7 @@ footer .widget{
 
 }
 
-@media (min-width: 768px) and (max-width: 979px){
+@media (min-width: 768px) and (max-width: 968px){
 /*=============================================
 =            HOMEPAGE            		  =
 =============================================*/
@@ -610,6 +610,10 @@ h3, .h3 {
 }
 .section-title h1 {
     font-size: 34px;
+}
+
+.cust-tech{
+    height: 400px;
 }
 
 footer .widget{

@@ -543,6 +543,40 @@ header .container{
     text-align: center;
 }
 
+.the-line-up {
+    text-align: center;
+}
+.clients-section p {
+    text-align: center;
+}
+
+
+/*--=================================
+ =      COMPETITIVE ADVANTAGE      =
+======================================*/
+.cust-tech i {
+    font-size: 130px;
+    color: #bf2128;
+    padding-bottom: 15px; 
+}
+.cust-tech {
+    text-align: center;
+    border: solid 5px #bf2128;
+    border-radius: 15px;
+    padding: 25px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+
+/*--=================================
+ =            MAP AREA              =
+======================================*/
+
+
+
+
+
 
 
 
