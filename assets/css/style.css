@@ -86,6 +86,7 @@ p{
 	line-height: 28px;
 }
 
+
 .section-title{}
 .section-title h1{
 	font-size: 36px;
@@ -96,7 +97,7 @@ p{
 	position: absolute;
 	left: 0px;
 	bottom: -15px;
-	background: #df0024;
+	background: #bf2128;
 	height: 2px;
 	width: 120px;
 	content: '';
@@ -540,7 +541,7 @@ header .container{
 }
 
 .item p {
-    text-align: center;
+    text-align: justify;
 }
 
 .the-line-up {
@@ -550,7 +551,9 @@ header .container{
     text-align: center;
 }
 
-
+.pump-line-up p, .pump-line-up h4 {
+    text-align: center;
+}
 /*--=================================
  =      COMPETITIVE ADVANTAGE      =
 ======================================*/
@@ -570,15 +573,25 @@ header .container{
 
 
 /*--=================================
- =            MAP AREA              =
+ =      APPLICATIONS PER INDUSTRY    =
+======================================*/
+.world-map p{
+    text-align: justify;
+}
+.app-per-ind h4, .app-per-ind p{
+    text-align: center;
+}
+.app-per-ind .no-spaces{
+    background-color: #fff;
+}
+
+/*--=================================
+ =               PROUDLY               =
 ======================================*/
 
-
-
-
-
-
-
+.proudly h2, .proudly h6 {
+    text-align: center;
+}
 
 /*=============================================
 =            FEATURED SLIDER  block            =
@@ -668,7 +681,7 @@ header .container{
 
 /*=====  End of FEATURED SLIDER block  ======*/
 
-.no-spaces{
+.service-area .no-spaces{
     margin: 0px;
     padding: 30px 0 0 15px;
     background-color: #bf2128;
@@ -975,6 +988,11 @@ header .container{
 }
 
 /*=====  End of CLIENTS AREA  ======*/
+
+
+
+
+
 
 /*=============================================
 =            CALL TO ACTION  AREA 	                  =
@@ -2058,3 +2076,4 @@ body{
 .team-page{
     margin: 120px 0px;
 }
+
